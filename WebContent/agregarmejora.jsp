@@ -25,7 +25,9 @@
 					Fecha:
 				</td>
 				<td>
-					<input type="text" name="fecha"><br>
+					<input type="text" name="fecha" required 
+					pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" 
+					title="Ingrese con formato YYYY-MM-DD" placeholder="YYYY-MM-DD">
 				</td>
 			</tr>
 			<tr>

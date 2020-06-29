@@ -3,7 +3,7 @@ package dao;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.List;
+
 
 import conector.ConexionSingleton;
 import idao.IdaoCapacitacion;
@@ -45,6 +45,4 @@ public class DaoCapacitacion implements IdaoCapacitacion {
 		
 		return agregar;
 	}
-	
-
 }

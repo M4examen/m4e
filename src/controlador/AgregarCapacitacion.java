@@ -14,7 +14,7 @@ import dao.DaoCliente;
 import dao.DaoVisita;
 import modelo.Clientes;
 import modelo.Visitas;
-import modelo.VisitasGeneradas;
+
 
 /**
  * Servlet implementation class AgregarCapacitacion
@@ -73,10 +73,7 @@ public class AgregarCapacitacion extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-	
-	
-		
-		
+			
 	}
 
 }

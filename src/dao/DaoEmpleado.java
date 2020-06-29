@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import conector.ConexionSingleton;
-import modelo.Clientes;
 import modelo.Empleados;
 import idao.IdaoEmpleado;
 

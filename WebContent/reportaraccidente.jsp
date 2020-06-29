@@ -40,7 +40,9 @@
 			<table>
 				<tr>
 					<td>Fecha Accidente</td>
-					<td><input type="text" name="fechaaccidente"></td>
+					<td><input type="text" name="fechaaccidente" required 
+					pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" 
+					title="Ingrese con formato YYYY-MM-DD" placeholder="YYYY-MM-DD"></td>
 				</tr>
 				<tr>
 					<td>Hora Accidente</td>

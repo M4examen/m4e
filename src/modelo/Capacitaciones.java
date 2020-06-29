@@ -74,9 +74,4 @@ public class Capacitaciones {
 				+ ", horaCapacitacion=" + horaCapacitacion + ", numAsistCapacitacion=" + numAsistCapacitacion
 				+ ", idVisitaCapacitacion=" + idVisitaCapacitacion + "]";
 	};
-	
-	
-	
-	
-
 }

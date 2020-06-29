@@ -22,7 +22,9 @@
 		<table>
 			<tr>
 				<td>Fecha Capacitacion</td>
-				<td> <input type="text" name="fecha"><br> </td>
+				<td> <input type="text" name="fecha" required 
+					pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" 
+					title="Ingrese con formato YYYY-MM-DD" placeholder="YYYY-MM-DD"><br> </td>
 			</tr>
 			<tr>
 				<td>Hora Capacitacion </td>

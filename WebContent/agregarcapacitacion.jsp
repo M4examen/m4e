@@ -21,7 +21,7 @@
 	<c:if test="${listavisitas.size() > 0}">
 		<br>
 		<h2>Listado de visitas generadas</h2>
-		<table border="1">
+		<table>
 			<tr>
 				<th>Identificador Visita </th>
 				<th>Direccion</th>
@@ -29,6 +29,7 @@
 				<th>Fecha Visita</th>
 				<th>Identificador Cliente</th>
 				<th>Empleado Asignado</th>
+				<th>Accion permitida</th>
 			</tr>
 			<c:forEach items="${listavisitas}" var="lgv">
 				<tr>

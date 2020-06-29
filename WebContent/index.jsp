@@ -8,27 +8,29 @@
 </head>
 <body>
 	<h1>Menu Principal</h1>
-	<ol>
 		<hr>
 		<h4>ÁREA ADMINISTRADOR</h4>
-		<li>CU 1
+		<ol>
+		<li>CU01
 			<a href="${pageContext.request.contextPath}/ListarClientes">Administrar Clientes</a>
 		</li>
-		<li>CU 2
+		<li>CU02
 			<a href="${pageContext.request.contextPath}/ListarEmpleados">Administrar Empleados</a>
 		</li>
+		</ol>
 		<hr>
 		<h4>ÁREA EMPLEADO</h4>	
-		<li>CU3
+		<ol start="3">
+		<li>CU03
 			<a href="${pageContext.request.contextPath}/AgregarCapacitacion">Crear capacitacion</a>
 		</li>
-		<li>CU4 
+		<li>CU04 
 			<a href="${pageContext.request.contextPath}/PlanificarVisita">Planificar Visita</a>
 		</li>
-		<li>CU5 
+		<li>CU05 
 			<a href="${pageContext.request.contextPath}/RevisarCliente">Revisar Cliente</a>
 		</li>
-		<li>CU6 
+		<li>CU06 
 			<a href="${pageContext.request.contextPath}/ReportarAccidente">Reportar accidente</a>
 		</li>		
 		<li>CU08 
