@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>test</p>
+	<h1>${msg}</h1>
+	<br>
+	<a href="${pageContext.request.contextPath}">Volver al Menu Principal</a>
 </body>
 </html>
