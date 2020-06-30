@@ -39,8 +39,12 @@
 		<li>CU09 
 			<a href="${pageContext.request.contextPath}/RevisarMejora">Revisar Actividad de mejora</a>
 		</li>
-		<li>CU19 Generar reporte cliente (Pendiente)</li>
-		<li>CU20 Generar reporte global (Pendiente)</li>
+		<li>CU19
+			<a href="${pageContext.request.contextPath}/GestionarReporteCliente">Generar Reporte Cliente</a>
+		</li>
+		<li>CU20 
+			<a href="${pageContext.request.contextPath}/GestionarReporteGlobal">Generar reporte global</a>
+		</li>
 	</ol>
 </body>
 </html>

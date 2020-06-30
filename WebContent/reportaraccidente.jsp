@@ -22,7 +22,7 @@
 		<form action="ReportarAccidente" method="post">
 		Ingrese Id Cliente 
 		<input type="number" name="idcli" required>
-		<input type="submit" value="Reisar">
+		<input type="submit" value="Revisar">
 		</form>
 	</c:if>
 	
@@ -30,7 +30,7 @@
 		<form action="ReportarAccidente" method="post">
 		Ingrese Id Cliente 
 		<input type="number" name="idcli" required>
-		<input type="submit" value="Reisar">
+		<input type="submit" value="Revisar">
 		</form>
 	</c:if>
 	
